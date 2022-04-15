@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #132235;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+header h1 img {
+  width: 20rem;
+}
+
+header nav ul {
+  display: flex;
+}
+header ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+header li a {
+  color: #6ddad3;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+#quem-somos,
+#fale-conosco {
+  background: #0001;
+  color: #132235;
+  min-height: 60vh;
+  padding: 3rem;
+}
+
+#quem-somos h2,
+#fale-conosco h2 {
+  font-size: 4rem;
+  margin: 5rem 0;
+}
+#quem-somos p {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  padding-right: 25rem;
+  line-height: 2.5ch;
+}
+#quem-somos .sobre-nos {
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+}
+
+#fale-conosco {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem 5rem;
+}
+#fale-conosco .messages,
+#fale-conosco form {
+  width: 80rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+#fale-conosco form fieldset {
+  display: flex;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+#fale-conosco form legend {
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+#fale-conosco form input,
+#fale-conosco form textarea {
+  background: none;
+  padding: 0.6rem;
+  margin: 0 1rem;
+  flex: 1;
+  font-size: 1.8rem;
+}
+
+#fale-conosco button {
+  background: #6ddad3;
+  color: #132235;
+  padding: 1rem 2.4rem;
+  font-size: 1.8rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+#fale-conosco .messages {
+  padding-top: 3rem;
+  font-size: 2rem;
+}
+#fale-conosco .messages.error {
+  color: red;
+}
+#fale-conosco .messages.hidden {
+  display: none;
+}
+
+#fale-conosco .messages .message-text {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background: #6ddad3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+}
+
+footer nav ul {
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul a {
+  background: #132235;
+  display: block;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer li img {
+  width: 3rem;
+}

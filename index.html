@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? família= Lato:wght@300;400;700 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app.css" />
+    <title>Programa Desenvolve</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <img src="/assets/logo.png" />
+      </h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#quem-somos">
+              Quem Somos
+            </a>
+          </li>
+          <li>
+            <a href="#fale-conosco">
+              Fale conosco
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="quem-somos">
+      <h2>Quem Somos</h2>
+      <p class="sobre-nos">
+        F4Life é uma empresa de aluguéis de repúblicas
+        <br />
+        para pessoas universitárias.
+      </p>
+      <p>
+        Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e
+        prepara moradias para recepção de pessoas universitárias em um ambiente
+        específico e otimizado para a vida de graduação.
+      </p>
+    </section>
+
+    <section id="fale-conosco">
+      <h2>Fale Conosco</h2>
+
+      <div class="form-container">
+        <form class="app-form">
+          <fieldset>
+            <legend>Email</legend>
+            <input type="email" class="form-input email-input" />
+          </fieldset>
+          <fieldset>
+            <legend>Mensagem</legend>
+            <textarea class="message-input" cols="30" rows="10"> </textarea>
+          </fieldset>
+          <button id="send-btn" type="submit">Enviar</button>
+        </form>
+        <div class="messages hidden">
+          <div class="message-text"></div>
+          <button id="clear-form">OK</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com"
+              ><img src="/assets/twitter-icon.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://instagram.com"
+              ><img src="/assets/instagram-icon.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://facebook.com"
+              ><img src="/assets/facebook-icon.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
